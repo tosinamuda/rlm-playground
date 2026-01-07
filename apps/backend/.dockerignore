@@ -1,0 +1,32 @@
+# Backend Docker Ignore
+# This is required because the build context is ./apps/backend
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+.uv/
+
+# Cache
+.pytest_cache/
+.ruff_cache/
+.turbo/
+
+# Environment
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Git
+.git/
+.gitignore
+
+# Dataset Cache (Crucial: ignore local runtime cache so build script can generate fresh)
+app/domains/datasets/cache/

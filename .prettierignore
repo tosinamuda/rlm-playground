@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+.next/
+out/
+build/
+dist/
+
+# Turborepo
+.turbo/
+
+# Documentation
+.docs/
+docs/
+
+# Python
+*.py
+__pycache__/
+.venv/
+venv/
+.uv/
+
+# Misc
+*.log
+coverage/
+.pytest_cache/
+
+# Lock files
+package-lock.json
+uv.lock

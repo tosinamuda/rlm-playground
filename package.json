@@ -1,0 +1,25 @@
+{
+  "name": "app",
+  "version": "0.0.1",
+  "private": true,
+  "workspaces": [
+    "apps/frontend",
+    "apps/backend"
+  ],
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "start": "turbo start",
+    "test": "turbo test",
+    "lint": "turbo lint",
+    "lint:fix": "turbo lint:fix",
+    "type-check": "turbo type-check",
+    "dev:frontend": "npm run dev --workspace @app/frontend",
+    "dev:backend": "npm run dev --workspace @app/backend",
+    "build:frontend": "npm run build --workspace @app/frontend"
+  },
+  "packageManager": "npm@11.6.2",
+  "devDependencies": {
+    "turbo": "^2.7.2"
+  }
+}

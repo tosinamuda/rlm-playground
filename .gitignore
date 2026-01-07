@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+.uv/
+
+# Testing
+coverage/
+.coverage
+.pytest_cache/
+
+# Next.js
+.next/
+out/
+build/
+dist/
+
+# Misc
+.DS_Store
+*.log
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Turborepo
+.turbo/
+
+# Documentation (generated)
+docs/
+
+# Dataset cache
+**/cache/*.json

@@ -1,6 +1,9 @@
-# RLM Prototype
+# RLM Playground
 
-Reasoning Language Model playground with Next.js frontend and FastAPI backend.
+A fullstack playground for the Recursive Language Model using Next.js frontend, FastAPI backend and DsPy.
+
+<img width="3840" height="2160" alt="RLM-playground-prototype" src="https://github.com/user-attachments/assets/1566b0c7-7c27-475b-9fdf-b26c6c2793c4" />
+
 
 ## Quick Start (Docker)
 
